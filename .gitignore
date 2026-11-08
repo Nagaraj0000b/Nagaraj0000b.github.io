@@ -1,0 +1,7 @@
+# Local-only files
+
+apollo_contacts.csv
+
+# OS files
+.DS_Store
+Thumbs.db
