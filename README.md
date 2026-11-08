@@ -1,5 +1,7 @@
 # Nagaraj B — portfolio
 
+Live site: **[nagaraj0000b.github.io](https://nagaraj0000b.github.io/)**
+
 A single-page developer portfolio built with plain HTML, CSS and a small amount of JavaScript. No build step, no framework and no external dependencies. KVix and Saarthi have hand-built UI visuals; Where Is My Bus has a screenshot slot.
 
 ## Preview locally
