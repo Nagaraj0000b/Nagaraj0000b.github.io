@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Screenshot placeholder for KVix, an in-memory key-value server">
+  <defs>
+    <pattern id="kv-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#d6cebd" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="#f3efe7"/>
+  <rect width="1200" height="750" fill="url(#kv-dots)"/>
+
+  <text x="84" y="50" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3" fill="#9c4526">SCREENSHOT PLACEHOLDER</text>
+  <text x="1116" y="50" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#6c675d">replace &#8594; assets/shots/kvix.svg</text>
+
+  <rect x="92" y="84" width="1016" height="596" rx="20" fill="#171614" opacity="0.07"/>
+  <rect x="84" y="72" width="1016" height="596" rx="18" fill="#faf9f5" stroke="#d6cebd" stroke-width="2"/>
+  <path d="M84 128h1016" stroke="#e5dfd2" stroke-width="2"/>
+
+  <circle cx="118" cy="100" r="5" fill="#c15f3c" opacity="0.75"/>
+  <circle cx="136" cy="100" r="5" fill="#d6cebd"/>
+  <circle cx="154" cy="100" r="5" fill="#d6cebd"/>
+  <rect x="176" y="84" width="330" height="32" rx="16" fill="#f3efe7"/>
+  <text x="192" y="105" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#6c675d">kvix://127.0.0.1:6379</text>
+
+  <!-- terminal -->
+  <rect x="108" y="152" width="468" height="492" rx="12" fill="#171614"/>
+  <circle cx="132" cy="178" r="4" fill="#faf9f5" opacity="0.35"/>
+  <circle cx="148" cy="178" r="4" fill="#faf9f5" opacity="0.2"/>
+  <circle cx="164" cy="178" r="4" fill="#faf9f5" opacity="0.12"/>
+  <text x="184" y="183" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#a8a294">redis-cli</text>
+  <path d="M108 202h468" stroke="#faf9f5" opacity="0.08"/>
+
+  <text x="132" y="248" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#c15f3c">&#8250; <tspan fill="#faf9f5">redis-cli -p 6379</tspan></text>
+  <text x="132" y="292" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#faf9f5">&#8250; SET user:42 nagaraj</text>
+  <text x="132" y="336" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#8c887d">OK</text>
+  <text x="132" y="380" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#faf9f5">&#8250; GET user:42</text>
+  <text x="132" y="424" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#8c887d">"nagaraj"</text>
+  <text x="132" y="468" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#faf9f5">&#8250; BENCHMARK GET</text>
+  <text x="132" y="512" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#c15f3c">173.6K req/s &#183; 0.12 ms</text>
+  <text x="132" y="590" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#8c887d">LRU eviction &#183; TTL expiry &#183; snapshots + WAL</text>
+
+  <path d="M600 152v492" stroke="#e5dfd2" stroke-width="2"/>
+
+  <!-- right panel -->
+  <text x="628" y="192" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="3" fill="#9c4526">REDIS-COMPATIBLE</text>
+  <text x="628" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#171614">KVix</text>
+  <text x="628" y="300" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#403d37">In-memory key-value server in C++</text>
+
+  <text x="628" y="396" font-family="Georgia, 'Times New Roman', serif" font-size="74" letter-spacing="-2" fill="#9c4526">173.6K</text>
+  <text x="628" y="426" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2" fill="#6c675d">GET REQUESTS / SEC</text>
+
+  <text x="628" y="498" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#171614">0.12 ms</text>
+  <text x="628" y="524" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2" fill="#6c675d">LATENCY</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#403d37">
+    <rect x="628" y="566" width="92" height="34" rx="17" fill="#f3efe7" stroke="#d6cebd"/>
+    <text x="646" y="588">RESP</text>
+    <rect x="732" y="566" width="76" height="34" rx="17" fill="#f3efe7" stroke="#d6cebd"/>
+    <text x="750" y="588">LRU</text>
+    <rect x="820" y="566" width="76" height="34" rx="17" fill="#f3efe7" stroke="#d6cebd"/>
+    <text x="838" y="588">TTL</text>
+    <rect x="908" y="566" width="76" height="34" rx="17" fill="#f3efe7" stroke="#d6cebd"/>
+    <text x="926" y="588">WAL</text>
+  </g>
+</svg>

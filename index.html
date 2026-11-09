@@ -1,291 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Nagaraj B — Backend systems, Android &amp; applied ML</title>
-  <meta name="description" content="Portfolio of Nagaraj B, a final-year B.Tech CSE student at IIIT Guwahati building backend systems, Android apps and applied ML projects. Available for internships from January 2027.">
-  <meta name="author" content="Nagaraj B">
-  <meta name="theme-color" content="#f4f0e7">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta property="og:title" content="Nagaraj B — Backend systems, Android &amp; applied ML">
-  <meta property="og:description" content="Final-year CSE undergrad at IIIT Guwahati building backend systems, Android apps and applied ML projects. Available for internships from January 2027.">
+  <meta name="theme-color" content="#faf9f5">
+
+  <title>Nagaraj B — Backend systems, Android apps &amp; applied ML</title>
+  <meta name="description" content="Nagaraj B — final-year CSE undergrad at IIIT Guwahati. Backend systems, Android apps and applied ML. Available for internships from January 2027.">
+  <meta name="author" content="Nagaraj B">
+  <link rel="canonical" href="https://nagaraj0000b.github.io/">
+
+  <!-- Open Graph / social preview. -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nagaraj0000b.github.io/">
-  <meta property="og:site_name" content="Nagaraj B">
-  <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="https://nagaraj0000b.github.io/">
+  <meta property="og:title" content="Nagaraj B — Backend systems, Android apps &amp; applied ML">
+  <meta property="og:description" content="Final-year CSE undergrad at IIIT Guwahati. Available for internships from January 2027.">
+  <meta property="og:image" content="https://nagaraj0000b.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nagaraj B — final-year CSE undergrad who builds backend systems and applied ML projects.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nagaraj B — Backend systems, Android apps &amp; applied ML">
+  <meta name="twitter:description" content="Final-year CSE undergrad at IIIT Guwahati. Available for internships from January 2027.">
+  <meta name="twitter:image" content="https://nagaraj0000b.github.io/assets/og.png">
+
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/fonts/geist-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/geist-sans-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+
+  <!-- Self-hosted type: Anthropic Serif (display), Anthropic Sans (UI/text), Anthropic Mono (labels). -->
+  <link rel="preload" href="assets/fonts/AnthropicSerifWebText.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/AnthropicSansWebText.ttf" as="font" type="font/ttf" crossorigin>
+
   <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.replace("no-js", "js");</script>
+
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    // If script.js fails to load or throws, reveal the page instead of leaving
+    // every reveal element hidden behind the .js styles.
+    window.__revealFallback = window.setTimeout(function () {
+      document.documentElement.classList.add('is-ready');
+      var nodes = document.querySelectorAll('[data-reveal]');
+      for (var i = 0; i < nodes.length; i += 1) { nodes[i].classList.add('is-in'); }
+    }, 3000);
+  </script>
   <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nagaraj B",
+    "url": "https://nagaraj0000b.github.io/",
+    "email": "nagarajbenchamatti@gmail.com",
+    "jobTitle": "Computer Science undergraduate",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "IIIT Guwahati" },
+    "sameAs": [
+      "https://github.com/Nagaraj0000b",
+      "https://linkedin.com/in/nagarajb1",
+      "https://codeforces.com/profile/nagaraj14567"
+    ]
+  }
+  </script>
 </head>
-<body id="top">
+
+<body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="shell">
-      <div class="topbar">
-        <a class="brand" href="#top" aria-label="NB, Nagaraj B, back to top">
-          <span class="brand-mark" aria-hidden="true">NB</span>
-          <span class="brand-name">Nagaraj B</span>
+  <header class="site-header" id="top">
+    <div class="progress" aria-hidden="true"><span class="progress__bar" data-progress></span></div>
+
+    <div class="topbar wrap">
+      <button class="monogram" type="button" aria-label="Replay the intro animation" title="Replay intro animation">
+        N<span class="monogram__dot" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#achievements">Achievements</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#contact">Contact</a>
+        <span class="nav__indicator" aria-hidden="true" data-nav-indicator></span>
+      </nav>
+
+      <div class="topbar__right">
+        <span class="status">
+          <span class="status__dot" aria-hidden="true"></span>
+          Open to internships · Jan 2027
+        </span>
+        <a class="btn btn--primary btn--sm" href="assets/Nagaraj-B-Resume.pdf" download="Nagaraj-B-Resume.pdf">
+          Resume
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <p class="availability">
-          <span class="availability-dot" aria-hidden="true"></span>
-          Available for internships from January 2027
-        </p>
-      </div>
-
-      <div class="hero">
-        <p class="eyebrow">B.Tech CSE · IIIT Guwahati · Graduating July 2027</p>
-        <h1 class="hero-title">
-          <span>Nagaraj</span>
-          <span class="hero-title-last">B</span>
-        </h1>
-
-        <div class="hero-bottom">
-          <p class="hero-lede">
-            Final-year CSE undergrad who builds <em>backend systems</em> and applied ML projects.
-          </p>
-
-          <div class="hero-actions">
-            <nav class="profile-links" aria-label="Profile links">
-              <a href="https://github.com/Nagaraj0000b" target="_blank" rel="noopener noreferrer">
-                GitHub<span class="sr-only"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
-              </a>
-              <a href="https://linkedin.com/in/nagarajb1" target="_blank" rel="noopener noreferrer">
-                LinkedIn<span class="sr-only"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
-              </a>
-              <a href="mailto:nagarajbenchamatti@gmail.com">
-                Email<span class="arrow" aria-hidden="true">↗</span>
-              </a>
-            </nav>
-
-            <a class="button" href="assets/nagaraj-b-resume.pdf" download="Nagaraj-B-Resume.pdf">
-              <span>Download resume</span>
-              <span class="button-icon" aria-hidden="true">
-                <svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M8 2.5v8M4.5 7 8 10.5 11.5 7M3 13.5h10"/>
-                </svg>
-              </span>
-            </a>
-          </div>
-        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Open menu</span>
+          <span class="menu-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+        </button>
       </div>
     </div>
   </header>
 
-  <main id="main">
-    <section class="projects" id="projects" aria-labelledby="projects-title">
-      <div class="shell">
-        <div class="section-head" data-reveal>
-          <div>
-            <p class="eyebrow"><span class="eyebrow-index" aria-hidden="true">01</span> Selected work</p>
-            <h2 id="projects-title">Projects</h2>
-          </div>
-          <p class="section-note">Backend, Android and applied ML — built end to end.</p>
+  <!-- Mobile sheet -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+    <div class="mobile-menu__top">
+      <span class="monogram monogram--static" aria-hidden="true">N<span class="monogram__dot"></span></span>
+      <button class="mobile-menu__close" type="button" aria-label="Close menu">
+        <span aria-hidden="true">Close</span>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a href="#projects"><span class="mono">01</span> Projects</a>
+      <a href="#achievements"><span class="mono">02</span> Achievements</a>
+      <a href="#skills"><span class="mono">03</span> Skills</a>
+      <a href="#contact"><span class="mono">04</span> Contact</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="mailto:nagarajbenchamatti@gmail.com">nagarajbenchamatti@gmail.com</a>
+      <div class="mobile-menu__social">
+        <a href="https://github.com/Nagaraj0000b" target="_blank" rel="me noopener">GitHub ↗</a>
+        <a href="https://linkedin.com/in/nagarajb1" target="_blank" rel="me noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main" tabindex="-1">
+    <!-- ============================== Hero ============================== -->
+    <section class="hero" aria-labelledby="hero-title" data-hero>
+      <span class="hero__glow" aria-hidden="true"></span>
+      <span class="hero__grid" aria-hidden="true"></span>
+
+      <div class="hero__inner wrap">
+        <p class="eyebrow intro" style="--i:0">
+          IIIT Guwahati <span class="sep" aria-hidden="true">·</span> B.Tech CSE <span class="sep" aria-hidden="true">·</span> Class of 2027
+        </p>
+
+        <div class="hero__headline">
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span class="line__in intro">Nagaraj B</span></span>
+          </h1>
+          <svg class="hero__spark intro" style="--i:2" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 1v22M1 12h22M4.2 4.2l15.6 15.6M19.8 4.2 4.2 19.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
         </div>
 
-        <div class="project-list">
-          <article class="project project--kvix" data-reveal aria-labelledby="kvix-title">
-            <div class="project-media project-media--kvix">
-              <figure class="terminal" role="img" aria-label="KVix terminal output showing 173.6K GET requests per second at 0.12 ms p50 latency, with snapshots and write-ahead-log replay for crash recovery, plus LRU eviction and TTL expiry.">
-                <div class="terminal__bar" aria-hidden="true">
-                  <span class="terminal__lights"><i></i><i></i><i></i></span>
-                  <span class="terminal__title">KVix <span>/ in-memory store</span></span>
-                  <span class="terminal__live"><i></i> READY</span>
-                </div>
-                <div class="terminal__screen" aria-hidden="true">
-                  <p class="terminal__command"><span class="terminal__prompt">$</span> <span class="terminal__typed">redis-benchmark -t get -n 1000000</span></p>
+        <div class="hero__grid-inner">
+          <div class="hero__lead">
+            <p class="hero__lede intro" style="--i:3">
+              Final-year CSE undergrad who builds backend systems and applied ML projects
+            </p>
 
-                  <div class="terminal__stats">
-                    <div class="terminal__metric">
-                      <span class="terminal__label">GET THROUGHPUT</span>
-                      <span class="terminal__value">173.6K <small>req/s</small></span>
-                    </div>
-                    <div class="terminal__latency">
-                      <span class="terminal__label">P50 LATENCY</span>
-                      <span class="terminal__value terminal__value--small">0.12 <small>ms</small></span>
-                    </div>
-                  </div>
+            <p class="hero__meta intro" style="--i:4">
+              <span class="status__dot" aria-hidden="true"></span>
+              Available for internships from January 2027
+            </p>
 
-                  <div class="terminal__features">
-                    <span><b>CRASH RECOVERY</b> snapshot + WAL</span>
-                    <span><b>EVICTION</b> LRU + TTL</span>
-                  </div>
+            <div class="hero__actions intro" style="--i:5">
+              <a class="link link--icon" href="https://github.com/Nagaraj0000b" target="_blank" rel="me noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                GitHub
+              </a>
+              <a class="link link--icon" href="https://linkedin.com/in/nagarajb1" target="_blank" rel="me noopener">
+                <svg class="icon icon--fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+                LinkedIn
+              </a>
+              <a class="link link--icon" href="mailto:nagarajbenchamatti@gmail.com">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 6 8.5 6.5L20.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                Email
+              </a>
+              <a class="btn btn--primary" href="assets/Nagaraj-B-Resume.pdf" download="Nagaraj-B-Resume.pdf">
+                Download resume
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
 
-                  <div class="terminal__log">
-                    <p><span class="terminal__arrow">→</span> GET <span>user:1042</span><em>HIT</em></p>
-                    <p><span class="terminal__arrow">→</span> SET <span>session:8f3</span><em>OK</em></p>
-                    <p><span class="terminal__arrow">→</span> EXPIRE <span>cache:idx</span> 30<em>1</em></p>
-                    <p><span class="terminal__arrow">→</span> GET <span>feed:home</span><em>HIT</em></p>
-                  </div>
+          <dl class="hero__facts intro" style="--i:4">
+            <div>
+              <dt class="mono">Education</dt>
+              <dd>IIIT Guwahati · B.Tech CSE</dd>
+            </div>
+            <div>
+              <dt class="mono">Graduating</dt>
+              <dd>July 2027</dd>
+            </div>
+            <div>
+              <dt class="mono">Focus</dt>
+              <dd>Backend · Android · ML</dd>
+            </div>
+          </dl>
+        </div>
 
-                  <p class="terminal__end"><span class="terminal__prompt">kvix@local:~$</span> <i class="terminal__cursor"></i></p>
-                </div>
+        <a class="scroll-cue intro" style="--i:6" href="#projects">
+          <span class="mono">Scroll</span>
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Marquee strip (decorative, repeats forever) -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <div class="ticker__group">
+          <span>Backend systems</span><span class="ticker__star">✳</span>
+          <span>Android apps</span><span class="ticker__star">✳</span>
+          <span>Applied ML</span><span class="ticker__star">✳</span>
+          <span>IIIT Guwahati</span><span class="ticker__star">✳</span>
+          <span>Open to internships · Jan 2027</span><span class="ticker__star">✳</span>
+        </div>
+        <div class="ticker__group">
+          <span>Backend systems</span><span class="ticker__star">✳</span>
+          <span>Android apps</span><span class="ticker__star">✳</span>
+          <span>Applied ML</span><span class="ticker__star">✳</span>
+          <span>IIIT Guwahati</span><span class="ticker__star">✳</span>
+          <span>Open to internships · Jan 2027</span><span class="ticker__star">✳</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================ Projects ============================ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <header class="section__head" data-reveal="mask">
+          <p class="eyebrow">01 <span class="sep" aria-hidden="true">—</span> Selected work</p>
+          <div class="section__title-row">
+            <h2 class="section__title" id="projects-title">Projects</h2>
+            <span class="section__count mono">Three builds</span>
+          </div>
+        </header>
+
+        <!-- KVix — featured -->
+        <article class="project project--feature" data-tilt data-reveal>
+          <div class="project__visual">
+            <figure class="shot">
+              <!-- SCREENSHOT SLOT: replace this SVG with a real 16:10 screenshot (see README). -->
+              <img src="assets/shots/kvix.svg" width="1200" height="750"
+                   alt="Screenshot placeholder for KVix — an in-memory key-value server"
+                   loading="eager" fetchpriority="high" decoding="async" data-shot>
+              <figcaption class="shot__fallback" hidden>Screenshot missing — add <code>assets/shots/kvix.png</code></figcaption>
+            </figure>
+          </div>
+
+          <div class="project__body">
+            <div class="project__meta">
+              <span class="project__index mono">01</span>
+              <ul class="tags" aria-label="KVix technologies">
+                <li class="tag">C++</li>
+                <li class="tag">Redis RESP</li>
+                <li class="tag">epoll</li>
+              </ul>
+            </div>
+            <h3 class="project__name">KVix</h3>
+            <p class="project__desc">
+              In-memory key-value server in C++ with Redis protocol support; 173.6K GET requests/sec at 0.12 ms latency; snapshots and write-ahead-log replay for crash recovery; LRU eviction and TTL expiry.
+            </p>
+            <div class="project__links">
+              <a class="link link--arrow" href="https://github.com/Nagaraj0000b/Kvix" target="_blank" rel="noopener" aria-label="KVix on GitHub">
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+              <!-- DEMO SLOT: replace href="#" with your demo clip URL. -->
+              <a class="link link--demo" href="#" data-demo="KVix" aria-label="Watch the KVix demo clip">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+                Demo clip
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-grid">
+          <!-- Where Is My Bus -->
+          <article class="project" data-tilt data-reveal style="--d:1">
+            <div class="project__visual">
+              <figure class="shot">
+                <!-- SCREENSHOT SLOT: replace with assets/shots/where-is-my-bus.png -->
+                <img src="assets/shots/where-is-my-bus.svg" width="1200" height="750"
+                     alt="Screenshot placeholder for Where Is My Bus — an offline-first Delhi bus planner"
+                     loading="lazy" decoding="async" data-shot>
+                <figcaption class="shot__fallback" hidden>Screenshot missing — add <code>assets/shots/where-is-my-bus.png</code></figcaption>
               </figure>
             </div>
-
-            <div class="project-body">
-              <div class="project-meta">
-                <span class="project-number" aria-hidden="true">01</span>
-                <span>Backend systems</span>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="project__index mono">02</span>
+                <ul class="tags" aria-label="Where Is My Bus technologies">
+                  <li class="tag">Flutter</li>
+                  <li class="tag">Fastify</li>
+                  <li class="tag">TypeScript</li>
+                  <li class="tag">PostgreSQL/PostGIS</li>
+                </ul>
               </div>
-
-              <h3 class="project-title" id="kvix-title">KVix</h3>
-              <p class="project-description">
-                In-memory key-value server in C++ with Redis protocol support; <strong>173.6K GET requests/sec at 0.12 ms latency</strong>; snapshots and write-ahead-log replay for crash recovery; LRU eviction and TTL expiry.
-              </p>
-
-              <ul class="tag-list" aria-label="KVix technologies">
-                <li>C++</li>
-                <li>Redis protocol</li>
-                <li>WAL</li>
-                <li>LRU</li>
-                <li>TTL</li>
-              </ul>
-
-              <div class="project-links">
-                <a href="https://github.com/Nagaraj0000b/Kvix" target="_blank" rel="noopener noreferrer">
-                  GitHub repo<span class="sr-only"> for KVix (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project project--bus" data-reveal aria-labelledby="bus-title">
-            <div class="project-media project-media--bus">
-              <!-- Replace this src with your real Where Is My Bus screenshot. -->
-              <img
-                src="assets/bus-placeholder.svg"
-                alt="Placeholder for a Where Is My Bus screenshot showing a map route and arrival estimate."
-                width="1600"
-                height="1000"
-                loading="lazy"
-                decoding="async"
-                data-screenshot-slot="bus"
-              >
-            </div>
-
-            <div class="project-body">
-              <div class="project-meta">
-                <span class="project-number" aria-hidden="true">02</span>
-                <span>Mobile mapping</span>
-              </div>
-
-              <h3 class="project-title" id="bus-title">Where Is My Bus</h3>
-              <p class="project-description">
+              <h3 class="project__name">Where Is My Bus</h3>
+              <p class="project__desc">
                 Offline-first Delhi bus journey planner; Flutter app, Fastify/TypeScript backend, PostgreSQL/PostGIS; GPS map-matching pipeline; arrival estimates from weekday/weekend models.
               </p>
-
-              <ul class="tag-list" aria-label="Where Is My Bus technologies">
-                <li>Flutter</li>
-                <li>Fastify</li>
-                <li>TypeScript</li>
-                <li>PostgreSQL</li>
-                <li>PostGIS</li>
-              </ul>
-
-              <div class="project-links">
-                <a href="https://github.com/Nagaraj0000b/where-is-my-bus" target="_blank" rel="noopener noreferrer">
-                  GitHub repo<span class="sr-only"> for Where Is My Bus (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
+              <div class="project__links">
+                <a class="link link--arrow" href="https://github.com/Nagaraj0000b/where-is-my-bus" target="_blank" rel="noopener" aria-label="Where Is My Bus on GitHub">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+                <a class="link link--demo" href="#" data-demo="Where Is My Bus" aria-label="Watch the Where Is My Bus demo clip">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+                  Demo clip
                 </a>
               </div>
             </div>
           </article>
 
-          <article class="project project--saarthi" data-reveal aria-labelledby="saarthi-title">
-            <div class="project-media project-media--saarthi">
-              <div class="app-stage" role="img" aria-label="Saarthi app concept: a daily voice check-in screen in a dark phone, language options, and an earnings and wellbeing snapshot.">
-                <div class="app-stage__copy" aria-hidden="true">
-                  <p class="app-stage__eyebrow">Voice-first check-ins</p>
-                  <p class="app-stage__number">14 <span>languages</span></p>
-                  <div class="app-stage__chips">
-                    <span>XGBoost</span>
-                    <span>50,000 records</span>
-                  </div>
-                </div>
-
-                <div class="phone" aria-hidden="true">
-                  <div class="phone__screen">
-                    <span class="phone__notch"></span>
-
-                    <div class="phone__status">
-                      <span>9:41</span>
-                      <span class="phone__signal"><i></i><i></i><i></i></span>
-                    </div>
-
-                    <div class="phone__brand">
-                      <span>Saarthi</span>
-                      <span class="phone__avatar"></span>
-                    </div>
-
-                    <p class="phone__kicker">DAILY CHECK-IN</p>
-                    <p class="phone__title">How was today?</p>
-                    <p class="phone__hint">Hold to speak in your language.</p>
-
-                    <div class="phone__mic">
-                      <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-                        <rect x="9" y="3" width="6" height="11" rx="3"/>
-                        <path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3M9 21h6"/>
-                      </svg>
-                    </div>
-
-                    <div class="phone__wave">
-                      <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                    </div>
-
-                    <div class="phone__languages">
-                      <span class="is-active">HI</span>
-                      <span>TA</span>
-                      <span>BN</span>
-                      <span>TE</span>
-                      <span>+10</span>
-                    </div>
-
-                    <div class="phone__card">
-                      <p class="phone__card-label">TODAY'S SNAPSHOT</p>
-                      <div class="phone__row">
-                        <span>Earnings</span>
-                        <span class="phone__bar"><i style="--fill: 72%"></i></span>
-                        <b>XGB</b>
-                      </div>
-                      <div class="phone__row">
-                        <span>Wellbeing</span>
-                        <span class="phone__bar"><i style="--fill: 48%"></i></span>
-                      </div>
-                    </div>
-
-                    <span class="phone__home"></span>
-                  </div>
-                </div>
-              </div>
+          <!-- Saarthi -->
+          <article class="project" data-tilt data-reveal style="--d:2">
+            <div class="project__visual">
+              <figure class="shot">
+                <!-- SCREENSHOT SLOT: replace with assets/shots/saarthi.png -->
+                <img src="assets/shots/saarthi.svg" width="1200" height="750"
+                     alt="Screenshot placeholder for Saarthi — a voice-first Android app for gig workers"
+                     loading="lazy" decoding="async" data-shot>
+                <figcaption class="shot__fallback" hidden>Screenshot missing — add <code>assets/shots/saarthi.png</code></figcaption>
+              </figure>
             </div>
-
-            <div class="project-body">
-              <div class="project-meta">
-                <span class="project-number" aria-hidden="true">03</span>
-                <span>Voice &amp; applied ML</span>
+            <div class="project__body">
+              <div class="project__meta">
+                <span class="project__index mono">03</span>
+                <ul class="tags" aria-label="Saarthi technologies">
+                  <li class="tag">Kotlin</li>
+                  <li class="tag">Node.js/Express</li>
+                  <li class="tag">FastAPI</li>
+                  <li class="tag">XGBoost</li>
+                </ul>
               </div>
-
-              <h3 class="project-title" id="saarthi-title">Saarthi</h3>
-              <p class="project-description">
-                Voice-first Android app for gig workers; Kotlin app with Node.js/Express and Python FastAPI services; check-ins in <strong>14 languages</strong>; XGBoost earnings and burnout-risk models trained on <strong>50,000 synthetic records</strong>, with rule-based fallbacks when the ML service is down.
+              <h3 class="project__name">Saarthi</h3>
+              <p class="project__desc">
+                Voice-first Android app for gig workers; Kotlin app with Node.js/Express and Python FastAPI services; check-ins in 14 languages; XGBoost earnings and burnout-risk models trained on 50,000 synthetic records, with rule-based fallbacks when the ML service is down.
               </p>
-
-              <ul class="tag-list" aria-label="Saarthi technologies">
-                <li>Kotlin</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>FastAPI</li>
-                <li>XGBoost</li>
-              </ul>
-
-              <div class="project-links">
-                <a href="https://github.com/Nagaraj0000b/Saarthi-Ai" target="_blank" rel="noopener noreferrer">
-                  GitHub repo<span class="sr-only"> for Saarthi (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
+              <div class="project__links">
+                <a class="link link--arrow" href="https://github.com/Nagaraj0000b/Saarthi-Ai" target="_blank" rel="noopener" aria-label="Saarthi on GitHub">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+                <a class="link link--demo" href="#" data-demo="Saarthi" aria-label="Watch the Saarthi demo clip">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+                  Demo clip
                 </a>
               </div>
             </div>
@@ -294,96 +345,115 @@
       </div>
     </section>
 
-    <section class="achievements" aria-labelledby="achievements-title">
-      <div class="shell">
-        <div class="achievements-head" data-reveal>
-          <p class="eyebrow"><span class="eyebrow-index" aria-hidden="true">02</span> Achievements</p>
-          <h2 class="sr-only" id="achievements-title">Achievements</h2>
-          <span class="achievements-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
-              <path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"/>
-            </svg>
-          </span>
-        </div>
+    <!-- ========================== Achievements ========================== -->
+    <section class="section section--band" id="achievements" aria-labelledby="achievements-title">
+      <div class="wrap">
+        <header class="section__head" data-reveal="mask">
+          <p class="eyebrow">02 <span class="sep" aria-hidden="true">—</span> Track record</p>
+          <h2 class="section__title" id="achievements-title">Achievements</h2>
+        </header>
 
         <ul class="stats">
-          <li class="stat" data-reveal>
-            <span class="stat-index" aria-hidden="true">01</span>
-            <p class="stat-value">600+</p>
-            <p class="stat-copy">DSA problems solved including 400+ on LeetCode</p>
+          <li class="stat" data-reveal style="--d:0">
+            <p class="stat__value">
+              <span data-count="600" data-suffix="+" aria-hidden="true">600+</span>
+              <span class="sr-only">600+</span>
+            </p>
+            <p class="stat__label">DSA problems solved</p>
+            <p class="stat__sub">
+              including <a href="https://leetcode.com/u/Nagaraj00B/" target="_blank" rel="noopener"><span data-count="400" data-suffix="+" aria-hidden="true">400+</span><span class="sr-only">400+</span> on LeetCode</a>
+            </p>
           </li>
-          <li class="stat" data-reveal>
-            <span class="stat-index" aria-hidden="true">02</span>
-            <p class="stat-value">3-star</p>
-            <p class="stat-copy">CodeChef <span class="nowrap">(rating 1715)</span></p>
+
+          <li class="stat" data-reveal style="--d:1">
+            <p class="stat__value">
+              <span aria-hidden="true">3<span class="star">★</span></span>
+              <span class="sr-only">3 star</span>
+            </p>
+            <p class="stat__label">CodeChef</p>
+            <p class="stat__sub">
+              rating <span data-count="1715" aria-hidden="true">1715</span><span class="sr-only">1715</span>
+              <span class="stat__sep" aria-hidden="true">·</span>
+              <a href="https://www.codechef.com/users/nagaraj23b" target="_blank" rel="noopener">@nagaraj23b</a>
+            </p>
           </li>
-          <li class="stat" data-reveal>
-            <span class="stat-index" aria-hidden="true">03</span>
-            <p class="stat-value">Pupil</p>
-            <p class="stat-copy">Codeforces <span class="nowrap">(rating 1309)</span></p>
+
+          <li class="stat" data-reveal style="--d:2">
+            <p class="stat__value stat__value--rank">Pupil</p>
+            <p class="stat__label">Codeforces</p>
+            <p class="stat__sub">
+              rating <span data-count="1309" aria-hidden="true">1309</span><span class="sr-only">1309</span>
+              <span class="stat__sep" aria-hidden="true">·</span>
+              <a href="https://codeforces.com/profile/nagaraj14567" target="_blank" rel="noopener">@nagaraj14567</a>
+            </p>
           </li>
-          <li class="stat" data-reveal>
-            <span class="stat-index" aria-hidden="true">04</span>
-            <p class="stat-value stat-value-small">Semi-finalist</p>
-            <p class="stat-copy">Flipkart GRiD 8.0</p>
+
+          <li class="stat" data-reveal style="--d:3">
+            <p class="stat__value">
+              <span data-count="8" data-decimals="1" aria-hidden="true">8.0</span>
+              <span class="sr-only">8.0</span>
+            </p>
+            <p class="stat__label">Flipkart GRiD</p>
+            <p class="stat__sub">semi-finalist</p>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="section skills-section" aria-labelledby="skills-title">
-      <div class="shell">
-        <div class="section-head" data-reveal>
-          <div>
-            <p class="eyebrow"><span class="eyebrow-index" aria-hidden="true">03</span> Toolkit</p>
-            <h2 id="skills-title">Skills</h2>
-          </div>
-          <p class="section-note">Languages, frameworks, infrastructure and applied ML.</p>
-        </div>
+    <!-- ============================= Skills ============================= -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <header class="section__head" data-reveal="mask">
+          <p class="eyebrow">03 <span class="sep" aria-hidden="true">—</span> Toolkit</p>
+          <h2 class="section__title" id="skills-title">Skills</h2>
+        </header>
 
-        <div class="skills-grid">
-          <div class="skill-group" data-reveal>
-            <h3>Languages</h3>
-            <ul>
-              <li>C++</li>
-              <li>Python</li>
-              <li>TypeScript/JavaScript</li>
-              <li>Kotlin</li>
-              <li>SQL</li>
+        <div class="skills">
+          <div class="skill-row" data-reveal="left" style="--d:0">
+            <h3 class="skill-row__label mono">Languages</h3>
+            <ul class="chips">
+              <li class="chip">C++</li>
+              <li class="chip">Python</li>
+              <li class="chip">TypeScript/JavaScript</li>
+              <li class="chip">Kotlin</li>
+              <li class="chip">SQL</li>
             </ul>
           </div>
-          <div class="skill-group" data-reveal>
-            <h3>Backend &amp; web</h3>
-            <ul>
-              <li>Node.js</li>
-              <li>FastAPI</li>
-              <li>React</li>
+
+          <div class="skill-row" data-reveal="right" style="--d:1">
+            <h3 class="skill-row__label mono">Backend &amp; Web</h3>
+            <ul class="chips">
+              <li class="chip">Node.js</li>
+              <li class="chip">FastAPI</li>
+              <li class="chip">React</li>
             </ul>
           </div>
-          <div class="skill-group" data-reveal>
-            <h3>Data</h3>
-            <ul>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-              <li>Redis</li>
+
+          <div class="skill-row" data-reveal="left" style="--d:2">
+            <h3 class="skill-row__label mono">AI &amp; ML</h3>
+            <ul class="chips">
+              <li class="chip">Scikit-learn</li>
+              <li class="chip">Pandas</li>
+              <li class="chip">NumPy</li>
+              <li class="chip">XGBoost</li>
             </ul>
           </div>
-          <div class="skill-group" data-reveal>
-            <h3>AI / ML</h3>
-            <ul>
-              <li>XGBoost</li>
-              <li>Applied ML</li>
-              <li>Model evaluation</li>
-              <li>Synthetic data</li>
-              <li>Rule-based fallbacks</li>
+
+          <div class="skill-row" data-reveal="right" style="--d:3">
+            <h3 class="skill-row__label mono">Databases</h3>
+            <ul class="chips">
+              <li class="chip">PostgreSQL</li>
+              <li class="chip">MongoDB</li>
+              <li class="chip">Redis</li>
             </ul>
           </div>
-          <div class="skill-group" data-reveal>
-            <h3>Tools</h3>
-            <ul>
-              <li>Docker</li>
-              <li>Git</li>
-              <li>Linux</li>
+
+          <div class="skill-row" data-reveal="left" style="--d:4">
+            <h3 class="skill-row__label mono">Tooling</h3>
+            <ul class="chips">
+              <li class="chip">Docker</li>
+              <li class="chip">Git</li>
+              <li class="chip">Linux</li>
             </ul>
           </div>
         </div>
@@ -391,32 +461,48 @@
     </section>
   </main>
 
-  <footer class="site-footer" id="contact">
-    <div class="shell">
-      <div class="footer-top" data-reveal>
-        <p class="eyebrow"><span class="eyebrow-index" aria-hidden="true">04</span> Contact</p>
-        <nav class="footer-links" aria-label="Footer links">
-          <a href="https://github.com/Nagaraj0000b" target="_blank" rel="noopener noreferrer">
-            GitHub<span class="sr-only"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
-          </a>
-          <a href="https://linkedin.com/in/nagarajb1" target="_blank" rel="noopener noreferrer">
-            LinkedIn<span class="sr-only"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span>
-          </a>
-          <a href="mailto:nagarajbenchamatti@gmail.com">
-            Email<span class="arrow" aria-hidden="true">↗</span>
-          </a>
-        </nav>
-      </div>
+  <!-- ============================= Footer ============================= -->
+  <footer class="site-footer" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>04 <span class="sep" aria-hidden="true">—</span> Contact</p>
+      <h2 class="sr-only" id="contact-title">Contact</h2>
 
-      <a class="footer-email" href="mailto:nagarajbenchamatti@gmail.com" data-reveal>
-        nagarajbenchamatti@gmail.com<span class="footer-email-arrow" aria-hidden="true">↗</span>
+      <a class="footer__mail" href="mailto:nagarajbenchamatti@gmail.com" data-reveal="mask">
+        nagarajbenchamatti@gmail.com
+        <span class="footer__mail-arrow" aria-hidden="true">↗</span>
       </a>
 
-      <div class="footer-base" data-reveal>
+      <div class="footer__row" data-reveal>
+        <ul class="footer__socials">
+          <li><a href="https://github.com/Nagaraj0000b" target="_blank" rel="me noopener">GitHub ↗</a></li>
+          <li><a href="https://linkedin.com/in/nagarajb1" target="_blank" rel="me noopener">LinkedIn ↗</a></li>
+          <li><a href="mailto:nagarajbenchamatti@gmail.com">Email ↗</a></li>
+          <li><a href="assets/Nagaraj-B-Resume.pdf" download="Nagaraj-B-Resume.pdf">Resume ↗</a></li>
+        </ul>
+
+        <div class="footer__tools">
+          <button class="motion-toggle" type="button" role="switch" aria-checked="false" data-motion-toggle>
+            <span class="motion-toggle__dot" aria-hidden="true"></span>
+            <span>Reduce motion</span>
+          </button>
+          <a class="to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+
+      <div class="footer__base" data-reveal>
         <p>Built by Nagaraj B</p>
-        <a href="#top" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
+        <p class="mono">IIIT Guwahati <span aria-hidden="true">·</span> <span data-year>2026</span></p>
       </div>
     </div>
   </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <noscript>
+    <style>
+      .js [data-reveal], .js .intro { opacity: 1 !important; transform: none !important; clip-path: none !important; }
+      .menu-toggle { display: none !important; }
+    </style>
+  </noscript>
 </body>
 </html>

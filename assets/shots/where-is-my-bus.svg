@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Screenshot placeholder for Where Is My Bus, an offline-first Delhi bus journey planner">
+  <defs>
+    <pattern id="bus-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#d6cebd" opacity="0.5"/>
+    </pattern>
+    <clipPath id="bus-screen">
+      <rect x="142" y="110" width="332" height="530" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="#f3efe7"/>
+  <rect width="1200" height="750" fill="url(#bus-dots)"/>
+
+  <text x="84" y="50" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3" fill="#9c4526">SCREENSHOT PLACEHOLDER</text>
+  <text x="1116" y="50" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#6c675d">replace &#8594; assets/shots/where-is-my-bus.svg</text>
+
+  <!-- phone -->
+  <rect x="128" y="96" width="360" height="558" rx="44" fill="#171614" opacity="0.08" transform="translate(6 8)"/>
+  <rect x="128" y="96" width="360" height="558" rx="44" fill="#171614"/>
+  <rect x="142" y="110" width="332" height="530" rx="28" fill="#faf9f5"/>
+  <rect x="268" y="118" width="80" height="14" rx="7" fill="#171614"/>
+
+  <g clip-path="url(#bus-screen)">
+    <text x="170" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#171614">Where Is My Bus</text>
+    <rect x="170" y="194" width="276" height="46" rx="23" fill="#f3efe7" stroke="#d6cebd"/>
+    <circle cx="196" cy="217" r="7" fill="none" stroke="#6c675d" stroke-width="2.5"/>
+    <path d="M201 222l7 7" stroke="#6c675d" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="218" y="222" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#6c675d">Search stops or routes</text>
+
+    <!-- map -->
+    <rect x="142" y="258" width="332" height="240" fill="#f3efe7"/>
+    <g stroke="#e5dfd2" stroke-width="9" fill="none">
+      <path d="M150 330h320M150 416h320M228 258v240M348 258v240"/>
+    </g>
+    <path d="M156 444c46-36 80 6 126-34s100-18 142-62" fill="none" stroke="#c15f3c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M172 292c52 22 58 88 116 96s86 34 138 26" fill="none" stroke="#171614" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
+    <g fill="#faf9f5" stroke="#c15f3c" stroke-width="5">
+      <circle cx="196" cy="410" r="9"/>
+      <circle cx="272" cy="368" r="9"/>
+      <circle cx="356" cy="328" r="9"/>
+    </g>
+    <circle cx="410" cy="292" r="9" fill="#c15f3c"/>
+
+    <!-- bottom sheet -->
+    <rect x="142" y="498" width="332" height="160" rx="0" fill="#ffffff"/>
+    <path d="M142 512c0-8 6-14 14-14h304c8 0 14 6 14 14v146H142z" fill="#ffffff"/>
+    <rect x="278" y="508" width="60" height="5" rx="2.5" fill="#d6cebd"/>
+    <text x="170" y="552" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#171614">Route 543</text>
+    <text x="170" y="578" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#6c675d">Dwarka Sector 9 &#8594; Connaught Place</text>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#403d37">
+      <rect x="170" y="596" width="74" height="30" rx="15" fill="#f6e9e2"/>
+      <text x="184" y="616">12 min</text>
+      <rect x="254" y="596" width="96" height="30" rx="15" fill="#f3efe7"/>
+      <text x="268" y="616">2 changes</text>
+      <rect x="360" y="596" width="88" height="30" rx="15" fill="#f3efe7"/>
+      <text x="374" y="616">weekday</text>
+    </g>
+  </g>
+
+  <!-- right column -->
+  <text x="580" y="182" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="3" fill="#9c4526">OFFLINE-FIRST</text>
+  <text x="580" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="62" letter-spacing="-2" fill="#171614">Where Is</text>
+  <text x="580" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="62" letter-spacing="-2" fill="#171614">My Bus</text>
+  <text x="580" y="366" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#403d37">Delhi bus journey planner</text>
+
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#403d37">
+    <rect x="580" y="410" width="10" height="10" rx="2" fill="#c15f3c"/>
+    <text x="606" y="421">GPS map-matching pipeline</text>
+    <rect x="580" y="450" width="10" height="10" rx="2" fill="#c15f3c"/>
+    <text x="606" y="461">Weekday / weekend arrival models</text>
+    <rect x="580" y="490" width="10" height="10" rx="2" fill="#c15f3c"/>
+    <text x="606" y="501">Journey planning without internet</text>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#403d37">
+    <rect x="580" y="548" width="98" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="598" y="571">Flutter</text>
+    <rect x="690" y="548" width="98" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="708" y="571">Fastify</text>
+    <rect x="800" y="548" width="118" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="818" y="571">PostGIS</text>
+  </g>
+</svg>

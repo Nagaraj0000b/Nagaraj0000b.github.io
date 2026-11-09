@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Screenshot placeholder for Saarthi, a voice-first Android app for gig workers">
+  <defs>
+    <pattern id="sa-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#d6cebd" opacity="0.5"/>
+    </pattern>
+    <clipPath id="sa-screen">
+      <rect x="142" y="110" width="332" height="530" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="#f3efe7"/>
+  <rect width="1200" height="750" fill="url(#sa-dots)"/>
+
+  <text x="84" y="50" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3" fill="#9c4526">SCREENSHOT PLACEHOLDER</text>
+  <text x="1116" y="50" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#6c675d">replace &#8594; assets/shots/saarthi.svg</text>
+
+  <!-- phone -->
+  <rect x="128" y="96" width="360" height="558" rx="44" fill="#171614" opacity="0.08" transform="translate(6 8)"/>
+  <rect x="128" y="96" width="360" height="558" rx="44" fill="#171614"/>
+  <rect x="142" y="110" width="332" height="530" rx="28" fill="#faf9f5"/>
+  <rect x="268" y="118" width="80" height="14" rx="7" fill="#171614"/>
+
+  <g clip-path="url(#sa-screen)">
+    <text x="170" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#171614">Saarthi</text>
+    <circle cx="248" cy="167" r="4" fill="#c15f3c"/>
+    <text x="170" y="198" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#6c675d">Voice check-in</text>
+
+    <!-- voice card -->
+    <rect x="158" y="216" width="300" height="196" rx="22" fill="#f3efe7" stroke="#e5dfd2"/>
+    <circle cx="308" cy="286" r="38" fill="#c15f3c"/>
+    <rect x="304" y="268" width="8" height="22" rx="4" fill="#faf9f5"/>
+    <path d="M294 288a14 14 0 0 0 28 0" fill="none" stroke="#faf9f5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M308 302v8" stroke="#faf9f5" stroke-width="3" stroke-linecap="round"/>
+    <g fill="#c15f3c" opacity="0.75">
+      <rect x="182" y="270" width="4" height="30" rx="2"/>
+      <rect x="194" y="256" width="4" height="58" rx="2"/>
+      <rect x="206" y="264" width="4" height="42" rx="2"/>
+      <rect x="218" y="248" width="4" height="74" rx="2"/>
+      <rect x="230" y="272" width="4" height="26" rx="2"/>
+      <rect x="386" y="260" width="4" height="50" rx="2"/>
+      <rect x="398" y="272" width="4" height="26" rx="2"/>
+      <rect x="410" y="252" width="4" height="66" rx="2"/>
+      <rect x="422" y="268" width="4" height="34" rx="2"/>
+    </g>
+    <text x="308" y="360" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#403d37">Check in by voice</text>
+    <text x="308" y="384" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="2" fill="#9c4526">14 LANGUAGES</text>
+
+    <!-- language chips -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#403d37">
+      <rect x="170" y="432" width="52" height="30" rx="15" fill="#ffffff" stroke="#d6cebd"/>
+      <text x="184" y="452">EN</text>
+      <rect x="230" y="432" width="52" height="30" rx="15" fill="#ffffff" stroke="#d6cebd"/>
+      <text x="244" y="452">HI</text>
+      <rect x="290" y="432" width="52" height="30" rx="15" fill="#ffffff" stroke="#d6cebd"/>
+      <text x="304" y="452">TA</text>
+      <rect x="350" y="432" width="52" height="30" rx="15" fill="#ffffff" stroke="#d6cebd"/>
+      <text x="364" y="452">BN</text>
+      <rect x="410" y="432" width="52" height="30" rx="15" fill="#ffffff" stroke="#d6cebd"/>
+      <text x="424" y="452">TE</text>
+      <text x="170" y="492" font-size="12" fill="#6c675d">+ 9 more</text>
+    </g>
+
+    <!-- response card -->
+    <rect x="158" y="510" width="300" height="112" rx="18" fill="#ffffff" stroke="#e5dfd2"/>
+    <text x="178" y="542" font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="2" fill="#9c4526">TODAY</text>
+    <text x="178" y="572" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#171614">Earnings so far</text>
+    <text x="178" y="602" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#171614">&#8377; 1,240</text>
+    <rect x="352" y="560" width="86" height="8" rx="4" fill="#f3efe7"/>
+    <rect x="352" y="560" width="58" height="8" rx="4" fill="#c15f3c"/>
+    <rect x="352" y="578" width="86" height="8" rx="4" fill="#f3efe7"/>
+    <rect x="352" y="578" width="34" height="8" rx="4" fill="#c15f3c"/>
+  </g>
+
+  <!-- right column -->
+  <text x="580" y="182" font-family="Consolas, 'Courier New', monospace" font-size="14" letter-spacing="3" fill="#9c4526">VOICE-FIRST</text>
+  <text x="580" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="72" letter-spacing="-2" fill="#171614">Saarthi</text>
+  <text x="580" y="306" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#403d37">Android app for gig workers</text>
+
+  <!-- model cards -->
+  <rect x="580" y="350" width="238" height="132" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+  <text x="604" y="384" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2" fill="#6c675d">EARNINGS</text>
+  <text x="604" y="428" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#171614">XGBoost</text>
+  <rect x="604" y="450" width="184" height="8" rx="4" fill="#f3efe7"/>
+  <rect x="604" y="450" width="132" height="8" rx="4" fill="#c15f3c"/>
+
+  <rect x="838" y="350" width="238" height="132" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+  <text x="862" y="384" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2" fill="#6c675d">BURNOUT RISK</text>
+  <text x="862" y="428" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#171614">Low</text>
+  <rect x="862" y="450" width="72" height="8" rx="4" fill="#f3efe7"/>
+  <rect x="862" y="450" width="72" height="8" rx="4" fill="#c15f3c" opacity="0.35"/>
+
+  <text x="580" y="530" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#403d37">Trained on 50,000 synthetic records</text>
+  <text x="580" y="560" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#403d37">Rule-based fallbacks when ML is down</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#403d37">
+    <rect x="580" y="606" width="92" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="598" y="629">Kotlin</text>
+    <rect x="687" y="606" width="104" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="705" y="629">FastAPI</text>
+    <rect x="806" y="606" width="112" height="36" rx="18" fill="#faf9f5" stroke="#d6cebd"/>
+    <text x="824" y="629">Express</text>
+  </g>
+</svg>

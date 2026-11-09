@@ -1,7 +1,5 @@
-# Local-only files
-
-apollo_contacts.csv
-
-# OS files
+# OS / editor noise
 .DS_Store
 Thumbs.db
+desktop.ini
+*.log
